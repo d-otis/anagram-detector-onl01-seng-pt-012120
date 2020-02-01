@@ -17,7 +17,7 @@ class Anagram
     # compare for matches
     # ==================================
     
-    binding.pry
+    # binding.pry
     sorted_input = @word.split("").sort
     final_arr = []
     list.each do |list_el|
