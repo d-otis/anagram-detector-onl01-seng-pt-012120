@@ -22,13 +22,13 @@ class Anagram
     final_arr = []
     list.each do |list_el|
       sorted_el = list_el.split("").sort
-      binding.pry
       if sorted_el == sorted_input
         final_arr << list_el
       else
       []
       end
     end
+    binding.pry
     final_arr
   end
   
