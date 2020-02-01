@@ -24,11 +24,12 @@ class Anagram
       sorted_el = list_el.split("").sort
       binding.pry
       if sorted_el == sorted_input
-        return final_arr << list_el
+        final_arr << list_el
       else
-       return []
+      []
       end
     end
+    final_arr
   end
-
+  
 end
