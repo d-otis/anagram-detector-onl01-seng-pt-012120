@@ -28,7 +28,6 @@ class Anagram
       []
       end
     end
-    binding.pry
     final_arr
   end
   
