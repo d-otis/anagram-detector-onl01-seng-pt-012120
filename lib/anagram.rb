@@ -11,9 +11,13 @@ class Anagram
   end
 
   def match(list)
+    # INSTRUCTIONS =====================
     # iterate over each word in the list
     # sort both input word and current word
     # compare for matches
+    # ==================================
+    
+    binding.pry
     sorted_input = @word.split("").sort
     final_arr = []
     list.each do |list_el|
