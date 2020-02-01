@@ -15,7 +15,6 @@ class Anagram
     # sort both input word and current word
     # compare for matches
     sorted_input = @word.split("").sort
-    # binding.pry
     final_arr = []
     list.each do |list_el|
       sorted_el = list_el.split("").sort
